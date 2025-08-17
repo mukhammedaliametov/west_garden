@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className='container flex items-center justify-between font-montserrat'>
             <div className='flex items-center gap-[10px]'>
-                <img src={Logo} alt="logo" />
+                <a href="javascript:void(0)"><img src={Logo} alt="logo" /></a>
                 <p className='hidden md:block text-[14px] text-[#646562] font-opensans'>Официальный партнер <br /> АО «ИНТЕКО»</p>
             </div>
             <div className='py-[16px] '>
