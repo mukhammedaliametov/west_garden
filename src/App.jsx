@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Ramenki from './components/Ramenki';
+import Window from './components/Window';
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
   <Header />
   <Hero />
   <Ramenki />
+  <Window />
     </>
   );
 };

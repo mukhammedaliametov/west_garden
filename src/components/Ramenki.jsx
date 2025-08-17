@@ -13,12 +13,12 @@ const Ramenki = () => {
           </p>
         </div>
         <h2 className="section-title my-[20px]">
-          Один из самых зелёных районов столицы — Раменки
+          Один из самых зелёных районов столицы — <span>Раменки</span>
         </h2>
         <img src={Map} alt="map" className="mt-[30px] md:mt-[50px]" />
         <p className="mt-[30px] text-[20px] md:text-[18px] font-opensans">ЖК West Garden окружен Матвеевским лесом, набережной реки <br className="hidden md:block" /> Раменки и природным заказником «Долина реки Сетунь»</p>
         <div className="inline-block mx-auto my-[25px]">
-          <div className="flex items-center gap-[10px] border border-[#EAE3D9] rounded-[12px] py-[5px] px-[16px] cursor-pointer">
+          <div className="flex items-center gap-[10px] border border-[#EAE3D9] rounded-[12px] py-[5px] px-[16px] cursor-pointer hover:shadow-md transition duration-300">
             <img src={Panorama} alt="panorama_icon" />
             <p className="font-semibold font-opensans text-[#773844]">
               Панорама района 360˚

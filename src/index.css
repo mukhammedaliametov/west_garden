@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap");
 @import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
 
 .font-opensans {
   font-family: "Open Sans", sans-serif;
@@ -28,8 +31,21 @@ body {
   text-align: center;
   color: #1a1a1a;
   width: 976px;
-  @media(max-width: 1024px){
-     font-size: 26px;
-  width: 100%;
+  @media (max-width: 1024px) {
+    font-size: 26px;
+    width: 100%;
   }
+}
+
+.section-title span {
+  border-bottom: 2px solid #a0a747;
+}
+
+.swiper-pagination-bullet-active {
+  background: #999 !important; 
+}
+
+.swiper-pagination-bullet {
+  background: #999 !important; 
+  opacity: 1;
 }
