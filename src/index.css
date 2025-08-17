@@ -19,3 +19,17 @@ body {
   margin: 0px auto;
   padding: 0px 16px;
 }
+
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 100%;
+  text-align: center;
+  color: #1a1a1a;
+  width: 976px;
+  @media(max-width: 1024px){
+     font-size: 26px;
+  width: 100%;
+  }
+}
