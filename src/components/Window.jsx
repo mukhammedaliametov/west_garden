@@ -5,7 +5,7 @@ import FemaleImage from "../assets/female.png";
 
 const Window = () => {
   return (
-    <div className="relative pt-[80px] px-[16px]" data-aos="fade-up">
+    <div className="container pt-[80px] px-[16px]" data-aos="fade-up">
       <h2 className="section-title mx-auto">
         Наслаждайтесь видами из окон своей квартиры
       </h2>
@@ -13,7 +13,7 @@ const Window = () => {
         <img
           src={Image}
           alt="slider"
-          className="w-full h-[500px] object-cover"
+          className="w-full h-[500px] object-cover rounded-[10px]"
         />
       </div>
       <div className="flex flex-col md:flex-row items-center gap-[15px] w-[100%] md:w-[950px] mx-auto bg-white rounded-[10px]">
