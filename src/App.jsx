@@ -5,6 +5,7 @@ import Ramenki from './components/Ramenki';
 import Window from './components/Window';
 import Cluters from './components/Clusters';
 import Lobby from './components/Lobby';
+import Formats from './components/Formats';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
   <Window />
   <Cluters />
   <Lobby />
+  <Formats />
     </>
   );
 };
