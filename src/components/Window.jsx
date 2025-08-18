@@ -5,7 +5,7 @@ import FemaleImage from "../assets/female.png";
 
 const Window = () => {
   return (
-    <div className="relative pt-[80px] mb-[300px] px-[16px]">
+    <div className="relative pt-[80px] px-[16px]">
       <h2 className="section-title mx-auto">
         Наслаждайтесь видами из окон своей квартиры
       </h2>
@@ -16,7 +16,7 @@ const Window = () => {
           className="w-full h-[500px] object-cover"
         />
       </div>
-      <div className="flex flex-col md:flex-row items-center gap-[15px] w-[100%] md:w-[70%] mx-auto bg-white rounded-[10px]">
+      <div className="flex flex-col md:flex-row items-center gap-[15px] w-[100%] md:w-[950px] mx-auto bg-white rounded-[10px]">
         <div className="font-montserrat py-[20px] px-[15px] md:px-[30px] w-[100%] md:w-[60%]">
           <p className="text-[#773844] font-semibold mb-[13px] text-[14px]">
             СПЕЦИАЛЬНО ДЛЯ ВАС
@@ -56,8 +56,8 @@ const Window = () => {
             данных и соглашаетесь c политикой конфиденциальности
           </p>
         </div>
-        <div className="hidden md:block w-[40%] mb-[-20px]">
-          <img src={FemaleImage} alt="" className="h-[120%]" />
+        <div className="hidden md:block w-[40%] mb-[-20px] ">
+          <img src={FemaleImage} alt="" className="h-[120%] scale-110" />
         </div>
       </div>
     </div>
