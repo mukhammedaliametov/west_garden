@@ -9,7 +9,7 @@ import ElevatorIcon from '../assets/elevator.svg';
 
 const Lobby = () => {
   return (
-    <div className="w-full md:w-[900px] mx-auto px-[16px]">
+    <div className="w-full md:w-[900px] mx-auto px-[16px]" data-aos="fade-up">
       <h2 className="section-title my-[40px]">Современная эстетика лобби</h2>
       <div className="bg-white py-[20px] px-[20px] md:px-[40px] rounded-[12px] font-montserrat">
         <div className="flex items-center gap-[5px] pb-[10px] md:pb-0">

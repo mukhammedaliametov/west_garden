@@ -5,7 +5,7 @@ import ClutersImg1 from "../assets/river_line1.png";
 
 const Clusters = () => {
   return (
-    <div className="pt-[90px]">
+    <div className="pt-[90px]" data-aos="fade-up">
       <h2 className="section-title mx-auto mb-[40px]">
         Жилой комплекс состоит <br /> из двух кластеров
       </h2>

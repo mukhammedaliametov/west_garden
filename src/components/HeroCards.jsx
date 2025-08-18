@@ -24,7 +24,7 @@ const HeroCards = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px] md:gap-[20px] w-[100%] md:w-[70%] mx-auto my-[50px]">
+    <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 gap-[30px] md:gap-[20px] w-[100%] md:w-[70%] mx-auto my-[50px]">
       {cards.map((item, index) => {
         return (
           <div

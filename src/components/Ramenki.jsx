@@ -4,7 +4,7 @@ import Panorama from "../assets/panorama.svg";
 
 const Ramenki = () => {
   return (
-    <div className="container">
+    <div className="container" data-aos="fade-up">
       <div className="w-[100%] md:w-[70%] mx-auto mt-[80px] md:mt-[140px] text-center">
         <div>
           <span className="block border-b border-[#EAE3D9] mb-[-13px]"></span>

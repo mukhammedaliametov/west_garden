@@ -5,7 +5,7 @@ import FemaleImage from "../assets/female.png";
 
 const Window = () => {
   return (
-    <div className="relative pt-[80px] px-[16px]">
+    <div className="relative pt-[80px] px-[16px]" data-aos="fade-up">
       <h2 className="section-title mx-auto">
         Наслаждайтесь видами из окон своей квартиры
       </h2>

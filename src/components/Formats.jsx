@@ -37,7 +37,7 @@ const Formats = () => {
       <div className="flex flex-col gap-[20px]">
         {formatsItems.map((item, index) => {
           return (
-            <div key={index} className="flex flex-col-reverse md:flex-row items-center gap-[20px] bg-white p-[15px] md:pl-[30px] py-[30px] md:py-[15px] rounded-[10px]">
+            <div key={index} data-aos="fade-up" className="flex flex-col-reverse md:flex-row items-center gap-[20px] bg-white p-[15px] md:pl-[30px] py-[30px] md:py-[15px] rounded-[10px]">
               <div className="">
                 <h3 className="text-[20px] md:text-[30px]/[36px] font-bold font-montserrat">{item.title}</h3>
               <p className="text-[#1A1A1A] font-opensans text-[16px] py-[10px]">{item.info}</p>
